@@ -1,0 +1,42 @@
+$clr-primary: hsla(227, 92%, 58%, 1);
+$clr-neutral-800: hsla(215, 31%, 21%, 1);
+$clr-neutral-500: hsla(215, 17%, 44%, 1);
+$clr-neutral-300: hsla(200, 24%, 88%, 1);
+$clr-neutral-100: hsla(0, 0%, 100%, 1);
+
+$gradient-bg: linear-gradient(315deg, #d6e6fe 0%, rgba(214, 252, 254, 0) 100%);
+$gradient-result: linear-gradient(90deg, #345ff6 0%, #587dff 100%);
+
+$ff-primary: "Inter", sans-serif;
+
+$fw-bold: 600;
+$fw-regular: 400;
+$fw-light: 300;
+
+$fs-300: var(--fs-300);
+$fs-400: var(--fs-400);
+$fs-500: var(--fs-500);
+$fs-600: var(--fs-600);
+$fs-700: var(--fs-700);
+$fs-800: var(--fs-800);
+$padding-x: var(--padding-x);
+
+:root {
+  --fs-300: 0.875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.25rem;
+  --fs-600: 1.5rem;
+  --fs-700: 2rem;
+  --fs-800: 3rem;
+  --padding-x: 1.5rem;
+
+  @media (min-width: 37.5rem) {
+    --padding-x: 2.5rem;
+  }
+
+  @media (min-width: 60em) {
+    --fs-700: 3rem;
+    --fs-800: 4rem;
+    --padding-x: 0;
+  }
+}
