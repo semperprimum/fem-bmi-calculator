@@ -42,7 +42,6 @@ body {
 
 .calculator {
   padding: 1.5rem;
-  margin-inline: $padding-x;
   margin-top: 3rem;
   background-color: $clr-neutral-100;
   border-radius: 1rem;
@@ -105,12 +104,16 @@ body {
 
 .meaning {
   margin-top: 4.5rem;
-  margin-inline: $padding-x;
+  // margin-inline: $padding-x;
   &__heading {
     margin-top: 3rem;
     margin-bottom: 2rem;
+    margin-inline: $padding-x;
     letter-spacing: -0.1rem;
     line-height: 1.1;
+  }
+  &__body {
+    margin-inline: $padding-x;
   }
 }
 

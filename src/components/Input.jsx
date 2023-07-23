@@ -15,6 +15,7 @@ export function Input({ unit, ariaLabel, value, onChange, label }) {
           aria-label={ariaLabel}
           placeholder="0"
           value={value}
+          inputMode="numeric"
           onChange={onChange}
         />
         <span className="input-control__unit | clr-primary fw-bold fs-600">
